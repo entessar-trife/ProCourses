@@ -1,7 +1,7 @@
 import AboutCardComponent from "../components/AboutCardComponent";
 import MainTitleComponent from "../components/MainTitleComponent";
 import { aboutData } from "../data/aboutData";
-import about_img from "../assets/images/about_image.jfif";
+import about_img from "../assets/images/about_image.webp";
 import { motion } from "framer-motion";
 import {
   containerVariants,

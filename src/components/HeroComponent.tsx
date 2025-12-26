@@ -1,5 +1,5 @@
 import MainButton from "./MainButton";
-import hero_img from "../assets/images/hero_image.jpg";
+import hero_img from "../assets/images/hero_image.webp";
 import { useAuth } from "../context/AuthContext";
 import { motion } from "framer-motion";
 import { fadeInUp, scaleIn } from "../utils/motionVariants";
@@ -9,9 +9,9 @@ const HeroComponent = () => {
 
   return (
     <div
-      className="flex flex-col lg:flex-row justify-between items-center gap-4
+      className="flex flex-col lg:flex-row justify-center items-center gap-4
       main-padding pt-10 md:pt-16 lg:pt-20 max-lg:pb-10
-    min-h-screen bg-linear-to-br from-white to-brand-light/30"
+     min-h-screen bg-linear-to-br from-white to-brand-light/30"
     >
       {/* TEXT CONTAINER */}
       <motion.div

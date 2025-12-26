@@ -1,4 +1,4 @@
-import card_bg from "../assets/images/course_bg.jfif";
+import card_bg from "../assets/images/course_bg.webp";
 import { useCart } from "../context/CartContext";
 import type { Course } from "../types/courseType";
 import MainButton from "./MainButton";
