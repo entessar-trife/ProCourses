@@ -11,7 +11,7 @@ const HeroComponent = () => {
     <div
       className="flex flex-col lg:flex-row justify-center items-center gap-4
       main-padding pt-10 md:pt-16 lg:pt-20 max-lg:pb-10
-     min-h-screen bg-linear-to-br from-white to-brand-light/30"
+    min-h-[70vh] md:min-h-screen bg-linear-to-br from-white to-brand-light/30"
     >
       {/* TEXT CONTAINER */}
       <motion.div
