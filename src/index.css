@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+/* FONT */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+@theme {
+  --color-brand-purple: #8A83ED;
+  --color-brand-navy  : #2B379F;
+  --color-brand-gold  : #FFCE44;
+  --color-brand-light : #DEDCFE;
+  --color-brand-gray  : #F1F3FF;
+
+}
+
+
+.main-padding {
+  padding-left : 16px;
+  padding-right: 16px;
+}
+
+@media screen and (min-width:768px) {
+  .main-padding {
+    padding-left : 80px;
+    padding-right: 80px;
+  }
+}
+
+@media screen and (min-width:1280px) {
+  .main-padding {
+    padding-left : 160px;
+    padding-right: 160px;
+  }
+}
+
+/* SCROLLBAR CUSTOMIZATION */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-brand-light);
+}
+
+::-webkit-scrollbar-thumb {
+  background   : linear-gradient(to bottom, var(--color-brand-navy), var(--color-brand-purple));
+  border-radius: 10px;
+  border       : 2px solid var(--color-brand-light);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-brand-purple);
+}
